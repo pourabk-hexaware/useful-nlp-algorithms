@@ -20,13 +20,13 @@ AlgorithmHandler.StringDistance(inputName, employeeData, threshold, (err, result
     }
 })
 
-// AlgorithmHandler.ProperNounRetention(inputSentence, (err, result) => {
-//     if(err){
-//         console.log("Error in ProperNounRetention Function : ", err);
-//     }
-//     else{
-//         //Cleaned Name
-//         //Expected Response "FirstName LastName"
-//         console.log(result)
-//     } 
-// })
+AlgorithmHandler.ProperNounRetention(inputSentence, (err, result) => {
+    if(err){
+        console.log("Error in ProperNounRetention Function : ", err);
+    }
+    else{
+        //Cleaned Name
+        //Expected Response "FirstName LastName"
+        console.log(result)
+    } 
+})
